@@ -1,0 +1,25 @@
+{
+  "name": "rework-site",
+  "version": "0.0.0",
+  "description": "rework-site ===========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davetayls/rework-site.git"
+  },
+  "author": "davetayls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davetayls/rework-site/issues"
+  },
+  "homepage": "https://github.com/davetayls/rework-site",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-myth": "^1.0.0",
+    "load-grunt-tasks": "^0.6.0",
+    "grunt-stripmq": "0.0.6"
+  }
+}

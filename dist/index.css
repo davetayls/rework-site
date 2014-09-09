@@ -1,0 +1,35 @@
+.foo {
+  color: #090;
+}
+
+@media screen and (max-width: 30em) {
+  .foo {
+    color: #900;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .foo {
+    color: yellow;
+  }
+}
+
+.bar {
+  background: red;
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .foo {
+    display: block;
+  }
+
+  .foo .bar {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .foo {
+    border: solid 1px red;
+  }
+}

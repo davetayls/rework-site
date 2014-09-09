@@ -1,0 +1,42 @@
+
+:root {
+  --color-green: #090;
+  --color-red: #900;
+  --color-yellow: yellow;
+}
+
+.foo {
+  color: var(--color-green);
+}
+
+@media (--narrow-window) {
+  .foo {
+    color: var(--color-red);
+  }
+}
+
+@media (--wide-window) {
+  .foo {
+    color: var(--color-yellow);
+  }
+}
+
+.bar {
+  background: red;
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .foo {
+    display: block;
+  }
+  .foo .bar {
+    display: inline;
+  }
+}
+
+@media (--wide-window) and (max-width: 1200px) {
+  .foo {
+    border: solid 1px red;
+  }
+}
+
