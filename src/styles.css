@@ -1,6 +1,5 @@
 
 :root {
-  --color-green: #090;
   --color-red: #900;
   --color-yellow: yellow;
 }
@@ -14,6 +13,7 @@
     color: var(--color-red);
   }
 }
+
 
 @media (--wide-window) {
   .foo {

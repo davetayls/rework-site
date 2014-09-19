@@ -2,5 +2,13 @@
 @custom-media --narrow-window screen and (max-width: 30em);
 @custom-media --wide-window screen and (min-width: 800px);
 
+:root {
+  --color-green: #090;
+}
+
 @import './styles.css';
+
+:root {
+  --color-green: #050;
+}
 
